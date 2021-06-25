@@ -1,5 +1,5 @@
 # Reimagined-sniffle (•̀ᴗ•́)╝ 🍵
-These are some useful shell (sh/zh) command aliases that I created for myself which I suppose will be help to y'all as well. 🐚🔫
+These are some useful shell (sh/zh) command aliases that I created which, I suppose will be help to y'all as well. 🐚🔫
 
 Add the below lines to your `~/.bashrc` file and `restart` the shell / terminal. ​👨🏻​✈️️​🔁​🏢​
 
