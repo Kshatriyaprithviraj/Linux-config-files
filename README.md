@@ -16,6 +16,8 @@ alias get="sudo apt install"
 alias del="sudo apt-get remove"
 alias fdel="sudo apt-get remove --purge --autoremove"
 alias di="sudo dpkg -i"
+alias sv="sudo visudo"
+alias alt="sudo update-alternatives --config "
 
 # Systemctl related command aliases.
 alias off="sudo systemctl poweroff"
@@ -28,6 +30,7 @@ alias servstat="sudo systemctl status"
 alias servrest="sudo systemctl restart"
 alias servon="sudo systemctl enable"
 alias servoff="sudo systemctl disable"
+alias aptconf="sudo nano /etc/apt/sources.list"
 
 # Python and pip aliases by prithvi.
 alias python3=python
@@ -35,6 +38,7 @@ alias pip3=pip
 
 # Bash related command aliases.
 alias brc="sudo nano ~/.bashrc"
+alias gbrc="sudo gedit ~/.bashrc"
 alias form="sudo nano ~/.profile"
 alias past="sudo nano ~/.bash_history"
 
