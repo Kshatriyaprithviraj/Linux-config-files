@@ -39,7 +39,7 @@ alias pip3=pip
 # Bash related command aliases.
 alias brc="sudo nano ~/.bashrc"
 alias gbrc="sudo gedit ~/.bashrc"
-alias form="sudo nano ~/.profile"
+alias pro="sudo nano ~/.profile"
 alias past="sudo nano ~/.bash_history"
 
 # Miscellaneous & application related command aliases.
