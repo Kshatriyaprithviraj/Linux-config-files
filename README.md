@@ -1,7 +1,7 @@
 # Reimagined-sniffle 🍵
 These are some useful shell (sh/zh) command aliases that I created which, I suppose will be help to y'all as well. 🐚🔫
 
-Add the below lines to your `~/.bashrc` file and `restart` the shell / terminal. ​👨🏻​✈️️​🔁​🏢​
+Add the below lines to your `~/.bash_aliases` file and `restart` the shell / terminal. ​👨🏻​✈️️​🔁​🏢​
 
 ```shell
 # Aptitude & System related command aliases.
@@ -15,6 +15,7 @@ alias cache="sudo apt-get clean"
 alias get="sudo apt install"
 alias del="sudo apt-get remove"
 alias fdel="sudo apt-get remove --purge --autoremove"
+alias autorem="sudo apt-get autoremove"
 alias di="sudo dpkg -i"
 alias sv="sudo visudo"
 alias alt="sudo update-alternatives --config "
@@ -38,7 +39,9 @@ alias pip3=pip
 
 # Bash related command aliases.
 alias brc="sudo nano ~/.bashrc"
+alias barc="sudo nano ~/.bash_aliases"
 alias gbrc="sudo gedit ~/.bashrc"
+alias gbarc="sudo gedit ~/.bash_aliases"
 alias pro="sudo nano ~/.profile"
 alias past="sudo nano ~/.bash_history"
 
