@@ -33,7 +33,7 @@ alias servon="sudo systemctl enable"
 alias servoff="sudo systemctl disable"
 alias aptconf="sudo nano /etc/apt/sources.list"
 
-# Python and pip aliases by prithvi.
+# Python and pip aliases.
 alias python3=python
 alias pip3=pip
 
@@ -44,6 +44,8 @@ alias gbrc="sudo gedit ~/.bashrc"
 alias gbarc="sudo gedit ~/.bash_aliases"
 alias pro="sudo nano ~/.profile"
 alias past="sudo nano ~/.bash_history"
+alias pd="passwd"
+alias spd="sudo passwd"
 
 # Miscellaneous & application related command aliases.
 alias cls="clear"
