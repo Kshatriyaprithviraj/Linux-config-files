@@ -1,4 +1,4 @@
-# Bash-sniffle 🍵
+# Bash-aliases 🍵
 These are some useful shell (sh/zh) command aliases that I created which, I suppose will be help to y'all as well. 🐚🔫
 
 Add the below lines to your `~/.bash_aliases` file and `restart` the shell / terminal. ​👨🏻​✈️️​🔁​🏢​
