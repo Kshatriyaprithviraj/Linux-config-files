@@ -58,6 +58,11 @@ alias shell="exec $SHELL"
 alias code="code-insiders"
 alias rem="sudo rm -rf"
 alias sun="sudo nano"
+
+# XAMPP shortcuts
+alias xstart="sudo /opt/lampp/xampp start"
+alias xstop="sudo /opt/lampp/xampp stop"
+alias xpanel="sudo /opt/lampp/manager-linux-x64.run"
 ```
 
 Will keep adding if I pertain to create more of such.✨
