@@ -203,6 +203,13 @@ deb-src http://mirror.cov.ukservers.com/ubuntu/ focal-backports main multiverse 
 # deb http://mirror.docker.ru/debian/ bullseye-backports main non-free contrib
 # deb http://mirror.docker.ru/debian/ bullseye-backports-sloppy main non-free contrib
 
+# Netherlands 
+# deb http://ftp.nz.debian.org/debian/ bullseye main non-free contrib
+# deb http://ftp.nz.debian.org/debian/ bullseye-updates main non-free contrib
+# deb http://ftp.nz.debian.org/debian/ bullseye-proposed-updates main non-free contrib
+# deb http://ftp.nz.debian.org/debian/ bullseye-backports main non-free contrib
+# deb http://ftp.nz.debian.org/debian/ bullseye-backports-sloppy main non-free contrib
+
 # Ukraine
 # deb http://debian.netforce.hosting/debian/ bullseye main non-free contrib
 # deb http://debian.netforce.hosting/debian/ bullseye-updates main non-free contrib
