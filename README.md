@@ -69,9 +69,8 @@ alias spm="sudo synaptic"
 alias shell="exec $SHELL -l"
 alias rem="sudo rm -rf"
 alias sun="sudo nano"
-alias calup="sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin"
-alias jopup="wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash"
 alias nvup="curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash"
+alias pyeup="cd $(pyenv root) && git pull"
 ```
 
 # Below are the repositories / mirrors that I use for apt on Debian.
@@ -100,7 +99,6 @@ deb-src http://deb.debian.org/debian/ bullseye-updates non-free main contrib
 deb http://deb.debian.org/debian/ bullseye-proposed-updates non-free main contrib
 deb-src http://deb.debian.org/debian/ bullseye-proposed-updates non-free main contrib
 
-
 # The repos below were pickup from debian.pkgs.org when searching for libappindicator1.
 deb http://ftp.de.debian.org/debian/ bullseye main contrib non-free
 deb-src http://ftp.de.debian.org/debian/ bullseye main contrib non-free
@@ -113,12 +111,11 @@ deb-src http://ftp.de.debian.org/debian/ bullseye-proposed-updates main contrib 
 deb http://ftp.de.debian.org/debian/ bullseye-backports-sloppy main contrib non-free
 deb-src http://ftp.de.debian.org/debian/ bullseye-backports-sloppy main contrib non-free
 
-
 # Ubuntu based dependencies required for debian.
-deb http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
-deb-src http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
-deb http://archive.ubuntu.com/ubuntu focal-backports main multiverse restricted universe
-deb-src http://archive.ubuntu.com/ubuntu focal-backports main multiverse restricted universe
+# deb http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
+# deb-src http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
+# deb http://archive.ubuntu.com/ubuntu focal-backports main multiverse restricted universe
+# deb-src http://archive.ubuntu.com/ubuntu focal-backports main multiverse restricted universe
 
 # Ubuntu - US (342 Gbps)
 # deb http://mirror.enzu.com/ubuntu/ focal main multiverse restricted universe
@@ -139,10 +136,10 @@ deb-src http://archive.ubuntu.com/ubuntu focal-backports main multiverse restric
 # deb-src http://mirror.pit.teraswitch.com/ubuntu/ focal-backports main multiverse restricted universe
 
 # Ubuntu - UK - 73 Gbps
-deb http://mirror.cov.ukservers.com/ubuntu/ focal main multiverse restricted universe
-deb-src http://mirror.cov.ukservers.com/ubuntu/ focal main multiverse restricted universe
-deb http://mirror.cov.ukservers.com/ubuntu/ focal-backports main multiverse restricted universe
-deb-src http://mirror.cov.ukservers.com/ubuntu/ focal-backports main multiverse restricted universe
+# deb http://mirror.cov.ukservers.com/ubuntu/ focal main multiverse restricted universe
+# deb-src http://mirror.cov.ukservers.com/ubuntu/ focal main multiverse restricted universe
+# deb http://mirror.cov.ukservers.com/ubuntu/ focal-backports main multiverse restricted universe
+# deb-src http://mirror.cov.ukservers.com/ubuntu/ focal-backports main multiverse restricted universe
 
 # sid, testing
 # deb http://deb.debian.org/debian/ sid main contrib non-free
@@ -203,13 +200,6 @@ deb-src http://mirror.cov.ukservers.com/ubuntu/ focal-backports main multiverse 
 # deb http://mirror.docker.ru/debian/ bullseye-backports main non-free contrib
 # deb http://mirror.docker.ru/debian/ bullseye-backports-sloppy main non-free contrib
 
-# Netherlands 
-# deb http://ftp.nz.debian.org/debian/ bullseye main non-free contrib
-# deb http://ftp.nz.debian.org/debian/ bullseye-updates main non-free contrib
-# deb http://ftp.nz.debian.org/debian/ bullseye-proposed-updates main non-free contrib
-# deb http://ftp.nz.debian.org/debian/ bullseye-backports main non-free contrib
-# deb http://ftp.nz.debian.org/debian/ bullseye-backports-sloppy main non-free contrib
-
 # Ukraine
 # deb http://debian.netforce.hosting/debian/ bullseye main non-free contrib
 # deb http://debian.netforce.hosting/debian/ bullseye-updates main non-free contrib
@@ -231,8 +221,9 @@ deb-src http://mirror.cov.ukservers.com/ubuntu/ focal-backports main multiverse 
 # deb http://mirror.siena.edu/debian/ bullseye-backports main non-free contrib
 # deb http://mirror.siena.edu/debian/ bullseye-backports-sloppy main non-free contrib
 
+# Microsoft Debian repositories
 deb https://packages.microsoft.com/debian/11/prod bullseye main
-# deb-src https://packages.microsoft.com/debian/11/prod bullseye main
+deb https://packages.microsoft.com/debian/11/prod insiders-fast main
 ```
 
 Will keep adding if I pertain to create more of such.✨
