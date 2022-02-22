@@ -1,4 +1,4 @@
-# Bash-aliases and other linux config🍵
+# My linux config🍵
 These are some useful shell (sh/zh) command aliases which I created for personal use. Anyone can use it. 🐚🔫
 
 Add the below lines to your `~/.bash_aliases` file and `restart` the shell / terminal. ​👨🏻​✈️️​🔁​🏢​
@@ -11,6 +11,7 @@ alias ug="sudo apt-get upgrade"
 alias dg="sudo apt-get dist-upgrade"
 alias src="sudo nano /etc/apt/sources.list"
 alias gsrc="sudo gedit /etc/apt/sources.list"
+alias csrc="sudo cat /etc/apt/sources.list"
 alias ver="cat /etc/debian_version"
 alias kver="uname -a"
 alias cache="sudo apt-get clean"
@@ -112,10 +113,10 @@ deb http://ftp.de.debian.org/debian/ bullseye-backports-sloppy main contrib non-
 deb-src http://ftp.de.debian.org/debian/ bullseye-backports-sloppy main contrib non-free
 
 # Ubuntu based dependencies required for debian.
-# deb http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
-# deb-src http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
-# deb http://archive.ubuntu.com/ubuntu focal-backports main multiverse restricted universe
-# deb-src http://archive.ubuntu.com/ubuntu focal-backports main multiverse restricted universe
+deb http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
+deb-src http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
+deb http://archive.ubuntu.com/ubuntu focal-backports main multiverse restricted universe
+deb-src http://archive.ubuntu.com/ubuntu focal-backports main multiverse restricted universe
 
 # Ubuntu - US (342 Gbps)
 # deb http://mirror.enzu.com/ubuntu/ focal main multiverse restricted universe
