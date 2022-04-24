@@ -31,6 +31,8 @@ alias lssrc="ls /etc/apt/sources.list.d"
 alias cdsrc="cd /etc/apt/sources.list.d"
 alias lsthm="ls /usr/share/themes/"
 alias cdthm="cd /usr/share/themes/"
+alias grubn="sudo nano /etc/default/grub"
+alias grubg="sudo gedit /etc/default/grub"
 
 # Systemctl related command aliases.
 alias off="sudo systemctl poweroff"
