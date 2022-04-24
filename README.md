@@ -115,6 +115,8 @@ deb http://ftp.de.debian.org/debian/ bullseye-backports-sloppy main contrib non-
 deb-src http://ftp.de.debian.org/debian/ bullseye-backports-sloppy main contrib non-free
 
 # Ubuntu based dependencies required for debian.
+# Always disable the below four repositories when
+# updating system for the first time after every fresh install.
 deb http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
 deb-src http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
 deb http://archive.ubuntu.com/ubuntu focal-backports main multiverse restricted universe
