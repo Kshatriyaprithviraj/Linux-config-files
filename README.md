@@ -142,7 +142,7 @@ deb-src http://archive.ubuntu.com/ubuntu focal-backports main multiverse restric
 # deb http://mirror.cov.ukservers.com/ubuntu/ focal-backports main multiverse restricted universe
 # deb-src http://mirror.cov.ukservers.com/ubuntu/ focal-backports main multiverse restricted universe
 
-# sid, testing
+# Debian - sid, testing
 # deb http://deb.debian.org/debian/ sid main contrib non-free
 # deb http://deb.debian.org/debian/ testing main contrib non-free
 # deb http://deb.debian.org/debian/ testing-updates main contrib non-free
