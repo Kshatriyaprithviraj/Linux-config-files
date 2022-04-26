@@ -30,7 +30,9 @@ alias alt="sudo update-alternatives --config "
 alias lssrc="ls /etc/apt/sources.list.d"
 alias cdsrc="cd /etc/apt/sources.list.d"
 alias lsthm="ls /usr/share/themes/"
+alias lsico="ls /usr/share/icons/"
 alias cdthm="cd /usr/share/themes/"
+alias cdico="cd /usr/share/icons/"
 alias grubn="sudo nano /etc/default/grub"
 alias grubg="sudo gedit /etc/default/grub"
 
@@ -73,7 +75,7 @@ alias shell="exec $SHELL -l"
 alias rem="sudo rm -rf"
 alias sun="sudo nano"
 alias nvup="curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash"
-alias pyeup="cd $(pyenv root) && git pull"
+alias pyeup="cd ~/.pyenv && git pull"
 ```
 
 # Below are the repositories / mirrors that I use for apt on Debian.
@@ -117,10 +119,11 @@ deb-src http://ftp.de.debian.org/debian/ bullseye-backports-sloppy main contrib 
 # Ubuntu based dependencies required for debian.
 # Always disable the below four repositories when
 # updating system for the first time after every fresh install.
-deb http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
-deb-src http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
-deb http://archive.ubuntu.com/ubuntu focal-backports main multiverse restricted universe
-deb-src http://archive.ubuntu.com/ubuntu focal-backports main multiverse restricted universe
+# And later re-enable it and do a ud and udg or just udg if you'd like to.
+# deb http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
+# deb-src http://archive.ubuntu.com/ubuntu focal main multiverse restricted universe
+# deb http://archive.ubuntu.com/ubuntu focal-backports main multiverse restricted universe
+# deb-src http://archive.ubuntu.com/ubuntu focal-backports main multiverse restricted universe
 
 # Ubuntu - US (342 Gbps)
 # deb http://mirror.enzu.com/ubuntu/ focal main multiverse restricted universe
@@ -228,9 +231,10 @@ deb-src http://archive.ubuntu.com/ubuntu focal-backports main multiverse restric
 
 # Microsoft Debian repositories
 deb https://packages.microsoft.com/debian/11/prod bullseye main
-deb https://packages.microsoft.com/debian/11/prod insiders-fast main
+deb https://packages.microsoft.com/debian/11/prod insiders-slow main
+deb https://packages.microsoft.com/debian/11/prod nightly main
 ```
 
-Will keep adding if I pertain to create more of such.✨
+✨
 
 Cheers ! 🥂
